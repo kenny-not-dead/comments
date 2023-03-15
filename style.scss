@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    div,
+    p,
+    input,
+    button,
+    form,
+    span,
+    a,
+    ul,
+    li {
+    box-sizing: border-box;
+    }
+
+
+    li {
+        list-style-type: none; 
+        }
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.comment {
+    padding: 20px 0;
+    width: 400px;
+    
+}
+
+.nameinfo{
+    display: flex;
+    p{
+        color: rgb(0, 0, 170);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.textcomment{
+padding: 10px 0;
+width: 90%;
+}
+
+.like{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.dateinfo{
+    display: flex;
+    p{
+        font-size: 14px;
+        color: gray;
+    }
+}
+
+.delete{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+.formwrapper{
+   input{
+    display: block;
+    margin-top: 15px;
+    padding: 5px 10px 5px;
+   }
+   margin-top: 30px;
+}
+
+.inputName {
+    width: 100px;
+}
+
+.inputText {
+    width: 400px;
+    height: 50px;
+}
+
+.btn{
+    width: 110px;
+    background: rgb(223 225 255);
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.wrong{
+    color: red
+}
